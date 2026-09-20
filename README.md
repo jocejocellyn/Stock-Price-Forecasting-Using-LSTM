@@ -45,16 +45,18 @@ Model performance was evaluated using:
 * **MAPE** — Mean Absolute Percentage Error
 
 ### Results
-| Stock         | Model         | RMSE        | MAE         | MAPE        |
-| ------------- | ------------: | ----------: | ----------: | ----------: |
-| FB            |      Baseline |     4.5236% |     3.0906% |     1.6737% |
-| FB            |      Improved | **4.3515%** | **3.0742%** | **1.6601%** | 
+FB Stock Comparison
+| Model         | RMSE        | MAE         | MAPE        |
+| ------------: | ----------: | ----------: | ----------: |
+|      Baseline |     4.5236% |     3.0906% |     1.6737% |
+|      Improved | **4.3515%** | **3.0742%** | **1.6601%** | 
 
 
-| Stock         | Model         | RMSE        | MAE         | MAPE        |
-| ------------- | ------------: | ----------: | ----------: | ----------: |
-| IBM           |      Baseline |     2.6653% |     1.7201% |     1.3274% |
-| IBM           |      Improved | **2.6494%** | **1.7059%** | **1.3158%** |
+IBM Stock Comparison
+| Model         | RMSE        | MAE         | MAPE        |
+| ------------: | ----------: | ----------: | ----------: |
+|      Baseline |     2.6653% |     1.7201% |     1.3274% |
+|      Improved | **2.6494%** | **1.7059%** | **1.3158%** |
 
 The tuned model achieved lower results for both stocks compared with the baseline model.
 
